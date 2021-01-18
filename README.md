@@ -257,7 +257,7 @@ CPU:
 
 CefFxmycWpVoFuqeTbZssBsCUipkfV1r5Y
 
-<a href="cpuchain:cpu1q7dunxtlcc4gqj5evm63y8wm0lam28eft4lanmj">Open link in windows with cpuchain core for donate</a>
+<a href="http://cpuchain:cpu1q7dunxtlcc4gqj5evm63y8wm0lam28eft4lanmj">Open link in windows with cpuchain core for donate</a>
 
 Happy mining!
 
