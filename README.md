@@ -1,63 +1,5 @@
 cpuminer-opt-cpupower
 ---------
-
-*For: CPUchain, Cranepay, Uranium-X and Yenten coin*
-
-**Recommended POOLS:**
-
-http://cpu-pool.com 
-
-InterCoin
-``cpuminer.exe -a yespowerinter -o stratum+tcp://cpu-pool.com:63328 -u WALLET_ADDRESS
-``
-
-LightBit
-``cpuminer.exe -a yespowerlitb -o stratum+tcp://cpu-pool.com:63398 -u WALLET_ADDRESS
-``
-
-CPUchain
-``cpuminer.exe -a cpupower -o stratum+tcp://cpu-pool.com:63388 -u WALLET_ADDRESS``
-
-Cranepay
-``cpuminer.exe -a yespower -o stratum+tcp://cpu-pool.com:63358 -u WALLET_ADDRESS``
-
-Uranium-X
-``cpuminer.exe -a yespowerurx -o stratum+tcp://cpu-pool.com:63378 -u WALLET_ADDRESS``
-
-Yenten
-``cpuminer.exe -a yespowerr16 -o stratum+tcp://cpu-pool.com:63368 -u WALLET_ADDRESS``
-
-Bellcoin
-``cpuminer.exe -a yespower -o stratum+tcp://cpu-pool.com:63338 -u WALLET_ADDRESS``
-
-Microbitcoin
-``cpuminer.exe -a power2b -o stratum+tcp://cpu-pool.com:63408 -u WALLET_ADDRESS``
-
-Sugarchain
-``cpuminer.exe -a yespowersugar -o stratum+tcp://cpu-pool.com:63418 -u WALLET_ADDRESS``
-
-
-
-**Linux and Ubuntu static miner** - https://github.com/cpu-pool/cpuminer-opt-cpupower/releases/download/1.4/Cpuminer-opt-cpu-pool-linux64.tar.gz
-
-or cmd for download Linux miner
-```css
-wget https://github.com/cpu-pool/cpuminer-opt-cpupower/releases/download/1.4/Cpuminer-opt-cpu-pool-linux64.tar.gz && tar zxvf Cpuminer-opt-cpu-pool-linux64.tar.gz
-```
-
-cmd for auto - download and start mining *one line CMD for Linux mining* 
-(replace WALLET_ADDRESS!!!)
-```css
-wget https://github.com/cpu-pool/cpuminer-opt-cpupower/releases/download/1.4/Cpuminer-opt-cpu-pool-linux64.tar.gz && tar zxvf Cpuminer-opt-cpu-pool-linux64.tar.gz && echo '#!/bin/sh
-while [ 1 ]; do
-./cpuminer -a yespowersugar -o stratum+tcp://cpu-pool.com:63418 -u WALLET_ADDRESS
-done' > autominer.sh && chmod +x autominer.sh && ./autominer.sh
-```
-
-**Download binary miner for windows x64** - https://github.com/cpu-pool/cpuminer-opt-cpupower/releases/
-
-**CPU mining profit calculator** - https://cpu-mining.info/
-
 Compile Ubuntu 16.04, 18.04, 19.04
 ---------
 ```
@@ -162,9 +104,9 @@ a false positive, they are flagged simply because they are cryptocurrency
 miners. The source code is open for anyone to inspect. If you don't trust 
 the software, don't use it.
 
-https://bitcointalk.org/index.php?topic=1326803.0
+<a href="https://bitcointalk.org/index.php?topic=1326803.0">This is the home of cpuminer-opt, the optimized CPU miner.</a>
 
-mailto://jayddee246@gmail.com
+<a href="mailto:jayddee246@gmail.com">jayddee246@gmail.com</a>
 
 See file RELEASE_NOTES for change log and compile instructions.
 
@@ -311,11 +253,11 @@ Donations
 
 cpuminer-opt has no fees of any kind but donations are accepted.
 
- BTC: 12tdvfF7KmAsihBXQXynT6E6th2c2pByTT
- ETH: 0x72122edabcae9d3f57eab0729305a425f6fef6d0
- LTC: LdUwoHJnux9r9EKqFWNvAi45kQompHk6e8
- BCH: 1QKYkB6atn4P7RFozyziAXLEnurwnUM1cQ
- BTG: GVUyECtRHeC5D58z9F3nGGfVQndwnsPnHQ
+CPU:
+
+CefFxmycWpVoFuqeTbZssBsCUipkfV1r5Y
+
+<a href="cpuchain:cpu1q7dunxtlcc4gqj5evm63y8wm0lam28eft4lanmj">Open link in windows with cpuchain core for donate</a>
 
 Happy mining!
 
